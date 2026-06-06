@@ -2,12 +2,15 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet, RouterLink } from '@angular/router';
 import { BoasVindas } from "./boas-vindas/boas-vindas";
 import { CidadeBlumenau } from './cidade-blumenau/cidade-blumenau';
-import { CidadeIndaial } from './cidade-indaial/cidade-indaial';
-import { CarrosHome } from './carros-home/carros-home';
+import { NavBar } from './nav-bar/nav-bar';
+import { FormCamposBasico } from './form-campos-basico/form-campos-basico';
+
+
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, BoasVindas, CidadeBlumenau, CidadeIndaial, CarrosHome, RouterLink],
+  imports: [RouterOutlet, BoasVindas, CidadeBlumenau,  RouterLink, NavBar, FormCamposBasico],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
