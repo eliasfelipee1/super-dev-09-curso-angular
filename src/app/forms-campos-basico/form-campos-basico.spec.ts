@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { FormCamposBasico } from './form-campos-basico';
 
 describe('FormCamposBasico', () => {
   let component: FormCamposBasico;

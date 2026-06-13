@@ -41,15 +41,19 @@ export class FormCamposBasico {
     if (this.operacao() === "somar") {
       const soma: number = this.numero01()! + this.numero02()!;
       alert(`Soma: ${soma}`);
+
     } else if (this.operacao() === "subtrair") {
       const subtracao: number = this.numero01()! - this.numero02()!;
       alert(`Subtração: ${subtracao}`);
+
     } else if (this.operacao() === "multiplicar") {
       const multiplicacao: number = this.numero01()! * this.numero02()!;
       alert(`Multiplicação: ${multiplicacao}`);
+
     } else if (this.operacao() === "dividir") {
       const divisao: number = this.numero01()! / this.numero02()!;
       alert(`Divisão: ${divisao}`);
+      
     } else {
       alert("Escolha a operação");
     }
