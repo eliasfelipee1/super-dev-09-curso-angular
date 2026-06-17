@@ -8,7 +8,6 @@ import {BmwM3 } from './bmw-m3/bmw-m3';
 import { ProdutoCadastrar } from './produtos/produto-cadastrar/produto-cadastrar';
 import { ProdutoEditar } from './produto-editar/produto-editar';
 import { ProdutoListar } from './produto-listar/produto-listar';
-import { ClientesCadastrar } from './clientes-cadastrar/clientes-cadastrar'
 
 
 
@@ -17,7 +16,7 @@ import { ClientesCadastrar } from './clientes-cadastrar/clientes-cadastrar'
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, BoasVindas,  RouterLink, NavBar, FormCamposBasico, CidadeBlumenau, BmwM3, ProdutoCadastrar, ProdutoEditar, ProdutoListar, ClientesCadastrar   ],
+  imports: [RouterOutlet, BoasVindas,  RouterLink, NavBar, FormCamposBasico, CidadeBlumenau, BmwM3, ProdutoCadastrar, ProdutoEditar, ProdutoListar    ],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

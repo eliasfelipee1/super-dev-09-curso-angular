@@ -8,7 +8,6 @@ import { BmwM3 } from './bmw-m3/bmw-m3';
 import { ProdutoCadastrar } from './produtos/produto-cadastrar/produto-cadastrar';
 import { ProdutoEditar } from './produto-editar/produto-editar';
 import { ProdutoListar } from './produto-listar/produto-listar';
-import { ClientesCadastrar } from './clientes-cadastrar/clientes-cadastrar'
 
 
 
@@ -18,11 +17,10 @@ export const routes: Routes = [
     { path: "boas-vindas", loadComponent: () => BoasVindas },
     { path: 'formulario/campos-basico', loadComponent: () => FormCamposBasico },
     { path: "navbar", loadComponent: () => NavBar },
-    {path: "bmw-m3", loadComponent: () =>  BmwM3 },
-    { path: "produto/cadastrar", loadComponent: () => ProdutoCadastrar },
-    { path: "produto/editar/:id", loadComponent: () => ProdutoEditar },
-    { path: "produto/listar", loadComponent: () => ProdutoListar },
-    { path: "clientes/cadastrar", loadComponent: () => ClientesCadastrar },
+    { path: "bmw-m3", loadComponent: () =>  BmwM3 },
+    { path: "produto-cadastrar", loadComponent: () => ProdutoCadastrar },
+    { path: "produto-editar/:id", loadComponent: () => ProdutoEditar },
+    { path: "produto-listar", loadComponent: () => ProdutoListar },
 
    
 ];
